@@ -1,0 +1,31 @@
+<p>Personajes Naruto DOM</p>
+
+<dl>
+    <dt>Nombre</dt>
+    <dd>
+        <strong>
+            {{nombre}}
+        </strong>
+    </dd>
+    <dt>Edad</dt>
+    <dd>
+        
+        <strong>
+            {{edad}}
+        </strong>
+    </dd>
+    <dt>En mayusculas</dt>
+    <dd>
+        <strong>
+            {{nombreMayusculas}}
+        </strong>
+    </dd>
+    <dt>Total info</dt>
+    <dd>
+        <strong>
+            {{ informacionPersonaje() }}
+        </strong>
+    </dd>
+</dl>
+
+<button (click)="cambiarPersonaje()">Cambiar Personaje</button>
